@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json.schemastore.org/chrome-manifest",
+    "manifest_version": 3,
+    "name": "New Tab",
+    "version": "0.0.1",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "permissions": [
+        "topSites"
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "cat@no.org"
+        }
+    }
+}
